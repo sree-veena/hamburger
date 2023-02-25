@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.icon-sm {
+  display: block;
+  text-align: center;
+  width: 60%;
+}
+
+.icon-lg {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .icon-sm {
+    display: none;
+  }
+
+  .icon-lg {
+    display: block;
+    text-align: center;
+    width: 60%;
+  }
+}

@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 40px;
+}
+
+.not-found-icon {
+  width: 30%;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.not-found-desc {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #616e7c;
+  text-align: center;
+  margin: 0;
+}
